@@ -1,0 +1,131 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookWindowsMessage", "HookWindowsMessage\HookWindowsMessage.csproj", "{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookCreationOfWindowsControl", "HookCreationOfWindowsControl\HookCreationOfWindowsControl.csproj", "{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookLibrary", "HookLibrary\HookLibrary.csproj", "{1352AD52-9D43-4A14-BDCA-B9E8F863F546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHook", "ApiHook\ApiHook.csproj", "{F5163569-1461-41AA-A772-2365E7F645B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HookAPI", "HookAPI", "{C4F5590F-1110-4633-BB16-B427D1F77CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HookMessage", "HookMessage", "{E988C48D-D093-43A5-942E-56BFE7375490}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{D3C2A0C8-C068-4ED9-86A2-934E39716CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{0196F4C9-EF2F-4E9B-AB78-A1FCBFA6BA01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{06577E8D-E118-429F-85FA-EFF13CEC5DDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2", "2", "{16D96840-BF80-4A2D-9235-BD8150661295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHookerHost", "ApiHookerHost\ApiHookerHost.csproj", "{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHookerDll", "ApiHookerDll\ApiHookerDll.csproj", "{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHookerDestination", "ApiHookerDestination\ApiHookerDestination.csproj", "{F1F23A94-CA5B-47EE-8885-083170462B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3", "3", "{4322F8BB-7601-4799-9C16-716771B1071B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHookSelf", "ApiHookSelf\ApiHookSelf.csproj", "{EF711FB1-C378-4E48-9049-207DBD3BB4B7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev.hy:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HookWindowsMessage\\HookWindowsMessage.csproj
+		SccProjectTopLevelParentUniqueName1 = WindowsHook.sln
+		SccProjectName1 = HookWindowsMessage
+		SccLocalPath1 = HookWindowsMessage
+		SccProjectUniqueName2 = HookCreationOfWindowsControl\\HookCreationOfWindowsControl.csproj
+		SccProjectTopLevelParentUniqueName2 = WindowsHook.sln
+		SccProjectName2 = HookCreationOfWindowsControl
+		SccLocalPath2 = HookCreationOfWindowsControl
+		SccProjectUniqueName3 = HookLibrary\\HookLibrary.csproj
+		SccProjectTopLevelParentUniqueName3 = WindowsHook.sln
+		SccProjectName3 = HookLibrary
+		SccLocalPath3 = HookLibrary
+		SccProjectUniqueName4 = ApiHook\\ApiHook.csproj
+		SccProjectTopLevelParentUniqueName4 = WindowsHook.sln
+		SccProjectName4 = ApiHook
+		SccLocalPath4 = ApiHook
+		SccProjectUniqueName5 = ApiHookerHost\\ApiHookerHost.csproj
+		SccProjectTopLevelParentUniqueName5 = WindowsHook.sln
+		SccProjectName5 = ApiHookerHost
+		SccLocalPath5 = ApiHookerHost
+		SccProjectUniqueName6 = ApiHookerDll\\ApiHookerDll.csproj
+		SccProjectTopLevelParentUniqueName6 = WindowsHook.sln
+		SccProjectName6 = ApiHookerDll
+		SccLocalPath6 = ApiHookerDll
+		SccProjectUniqueName7 = ApiHookerDestination\\ApiHookerDestination.csproj
+		SccProjectTopLevelParentUniqueName7 = WindowsHook.sln
+		SccProjectName7 = ApiHookerDestination
+		SccLocalPath7 = ApiHookerDestination
+		SccProjectUniqueName8 = ApiHookSelf\\ApiHookSelf.csproj
+		SccProjectTopLevelParentUniqueName8 = WindowsHook.sln
+		SccProjectName8 = ApiHookSelf
+		SccLocalPath8 = ApiHookSelf
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1352AD52-9D43-4A14-BDCA-B9E8F863F546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1352AD52-9D43-4A14-BDCA-B9E8F863F546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1352AD52-9D43-4A14-BDCA-B9E8F863F546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1352AD52-9D43-4A14-BDCA-B9E8F863F546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5163569-1461-41AA-A772-2365E7F645B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5163569-1461-41AA-A772-2365E7F645B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5163569-1461-41AA-A772-2365E7F645B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5163569-1461-41AA-A772-2365E7F645B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F23A94-CA5B-47EE-8885-083170462B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F23A94-CA5B-47EE-8885-083170462B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F23A94-CA5B-47EE-8885-083170462B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F23A94-CA5B-47EE-8885-083170462B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF711FB1-C378-4E48-9049-207DBD3BB4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF711FB1-C378-4E48-9049-207DBD3BB4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF711FB1-C378-4E48-9049-207DBD3BB4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF711FB1-C378-4E48-9049-207DBD3BB4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EAE1CC3-B8F5-492D-8DE8-6E0E74BAB9A3} = {0196F4C9-EF2F-4E9B-AB78-A1FCBFA6BA01}
+		{7B9C6CC1-0DF8-4DF5-8D83-B33A8250E727} = {D3C2A0C8-C068-4ED9-86A2-934E39716CDF}
+		{1352AD52-9D43-4A14-BDCA-B9E8F863F546} = {D3C2A0C8-C068-4ED9-86A2-934E39716CDF}
+		{F5163569-1461-41AA-A772-2365E7F645B0} = {06577E8D-E118-429F-85FA-EFF13CEC5DDE}
+		{D3C2A0C8-C068-4ED9-86A2-934E39716CDF} = {E988C48D-D093-43A5-942E-56BFE7375490}
+		{0196F4C9-EF2F-4E9B-AB78-A1FCBFA6BA01} = {E988C48D-D093-43A5-942E-56BFE7375490}
+		{06577E8D-E118-429F-85FA-EFF13CEC5DDE} = {C4F5590F-1110-4633-BB16-B427D1F77CDF}
+		{16D96840-BF80-4A2D-9235-BD8150661295} = {C4F5590F-1110-4633-BB16-B427D1F77CDF}
+		{FE6EEB3D-B4F7-45F5-AB0F-D3CDCFE0B6F5} = {16D96840-BF80-4A2D-9235-BD8150661295}
+		{B4EF73EB-3B7F-4430-B9A4-F350FE6317BE} = {16D96840-BF80-4A2D-9235-BD8150661295}
+		{F1F23A94-CA5B-47EE-8885-083170462B37} = {16D96840-BF80-4A2D-9235-BD8150661295}
+		{4322F8BB-7601-4799-9C16-716771B1071B} = {C4F5590F-1110-4633-BB16-B427D1F77CDF}
+		{EF711FB1-C378-4E48-9049-207DBD3BB4B7} = {4322F8BB-7601-4799-9C16-716771B1071B}
+	EndGlobalSection
+EndGlobal
